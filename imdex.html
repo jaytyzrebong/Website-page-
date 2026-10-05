@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael John M. Rebony | Portfolio</title>
+    <link rel="stylesheet" href="CSSstyle1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <!-- Network Background Canvas -->
+    <canvas id="bg-canvas"></canvas>
+    
+    <!-- Top Navigation -->
+    <nav class="top-nav">
+        <div class="logo">MJR<span>.</span></div>
+        <button class="theme-toggle" id="themeBtn"><i class="fas fa-moon"></i></button>
+        <button class="menu-toggle" id="menuBtn"><i class="fas fa-bars"></i></button>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay">
+        <a href="#home" class="menu-link">Home</a>
+        <a href="#services" class="menu-link">Services</a>
+        <a href="#about" class="menu-link">About Me</a>
+        <a href="#skills" class="menu-link">Skills</a>
+        <a href="#portfolio" class="menu-link">Portfolio</a>
+        <a href="#gallery" class="menu-link">Gallery</a>
+        <a href="#contact" class="menu-link">Contact</a>
+    </div>
+
+    <!-- ========== HOME SECTION ========== -->
+    <section id="home" class="section active">
+        <div class="container">
+            <div class="profile-frame">
+                <img src="Michael.jpg" alt="Michael John M. Rebong" class="profile-pic">
+            </div>
+            <h1 class="name">Michael John M. Rebong</h1>
+            <p class="title-line">I am a <span class="highlight">Programmer</span></p>
+
+            <div class="bio-card">
+                <p>"Hi there! I'm Michael John M. Rebong, shytype here, just a passionate web developer building modern applications. This portfolio tracks my journey, projects, and growth in the tech space. Glad to have you here!"</p>
+            </div>
+
+            <div class="social-links">
+                <a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-btn"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES SECTION ========== -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">My Services</h2>
+            <p class="section-sub">What I can do for your business or project</p>
+
+            <div class="service-card">
+                <i class="fas fa-palette service-icon"></i>
+                <h3>Web & UI Design</h3>
+                <p>Creating visual wireframes, sleek mobile-first layouts, and interactive prototypes with dark-mode focus.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-code service-icon"></i>
+                <h3>Frontend Development</h3>
+                <p>Writing clean, semantic HTML5, CSS3, and JavaScript code to turn flat designs into real websites.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-database service-icon"></i>
+                <h3>Database & SQL Management</h3>
+                <p>Designing structured relational database schemas, executing efficient queries, and managing data integrity using SQL.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-mobile-alt service-icon"></i>
+                <h3>Responsive Layouts</h3>
+                <p>Ensuring websites scale seamlessly across Android devices, iPhones, tablets, and Windows PCs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section id="about" class="section">
+        <div class="container"
+            <h2 class="section-title">About Me</h2>
+            <p class="section-sub">Get to know my journey and tech stack</p>
+
+            <div class="bio-card">
+                <p>I am <strong>Michael John M. Rebong</strong>, a BSCS student aspiring to become a web developer. I focus on creating web experiences that are user-friendly and lightweight, avoiding the use of heavy or complex frameworks.</p>
+                <p>When I am not programming, I continue to explore cooking, as it is a passion of mine. However, I am also deeply dedicated to web development; despite the challenges, I strive to thoroughly understand the concepts because I want to create a game—given my love for gaming that is not only entertaining but also informative and beneficial to everyone..</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <span class="skill-tag"><i class="fab fa-html5"></i> HTML5</span>
+                <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+                <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                <span class="skill-tag"><i class="fab fa-github"></i> GitHub</span>
+                <span class="skill-tag"><i class="fas fa-mobile-alt"></i> Mobile-First Design</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PORTFOLIO SECTION ========== -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Portfolio</h2>
+            <p class="section-sub">Selected web projects and mini-applications</p>
+
+            <div class="project-card">
+                <span class="project-category">WEB DESIGN</span>
+                <h3>Personal Portfolio</h3>
+                <p>A minimalist, dark-themed responsive website built using pure HTML, CSS, and JS.</p>
+                <a href="#" class="view-link">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="project-card">
+                <span class="project-category">WEB APP</span>
+                <h3>Interactive Dashboard</h3>
+                <p>A sleek dark-mode UI template with dynamic widgets and smooth layout transitions.</p>
+                <p class="tech-stack">CSS Grid • DOM Manipulation</p>
+                <a href="#" class="view-link">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="project-card">
+                <span class="project-category">FRONTEND</span>
+                <h3>Landing Page Showcase</h3>
+                <p>A responsive promo page focused on typography, smooth animations, and mobile accessibility.</p>
+                <p class="tech-stack">Flexbox • Glassmorphism</p>
+                <a href="#" class="view-link">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== GALLERY SECTION ========== -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <p class="section-sub">PRESENTING MY IDOLS It’s inspiring to see them succeed and realize how long it took for them to achieve everything if they could do it, I can too sacrifice now, success later.</p>
+
+            <div class="gallery-grid">
+                <img src="Mikha.jpg" alt="Gallery Photo" class="gallery-img">
+                <img src="Jhoana.jpg" alt="Gallery Photo" class="gallery-img">
+                <img src="Aiah.jpg" alt="Gallery Photo" class="gallery-img">
+                <img src="Maloi.jpg" alt="Gallery Photo" class="gallery-img">
+                <img src="Colet.jpg" alt="Gallery Photo" class="gallery-img">
+                <img src="Stacey.jpg" alt="Gallery Photo" class="gallery-img">
+                <img src="Shenna.jpg" alt="Gallery Photo" class="gallery-img">
+                <img src="Gwen.jpg" alt="Gallery Photo" class="gallery-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-sub">Have a project idea or just want to connect?</p>
+
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+
+            <p class="copyright">© 2026 Michael John M. Rebong. Designed & Built with Code.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
